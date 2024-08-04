@@ -1,0 +1,116 @@
+body{
+  background: linear-gradient(45deg,#917777,hsla(153, 90%, 73%, 0.494));
+  height:100vh;
+  width: 200px;
+  background-image: url(images/background.jpg);
+  background-size:cover;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.login-box{
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 60px;
+  width: 240px;
+  height: 200px;
+  position: fixed;
+  padding-bottom: 20px;
+  background: transparent;
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  backdrop-filter: blur(2px);
+  
+}
+.login-box:hover{
+  backdrop-filter:blur(10px);
+}
+#ulabel{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#label{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+
+}
+#uname{
+  
+  width: 90%;
+  height: 30%;
+  padding: 0px;
+  margin-top: -20px;
+  border-radius: 5px;
+  background: transparent;
+  position: relative;
+  padding-bottom: 0px;
+}
+#uname:hover{
+  box-shadow: 2px 2px 1px rgb(0, 0, 0);
+  background: linear-gradient(45deg,#010b3f,#f9a1e8);
+}
+#psw{
+
+  width: 90%;
+  height: 30%;
+  padding: 0px;
+  border-radius: 5px;
+  background: transparent;
+  position: relative;
+  
+}
+#psw:hover{
+  box-shadow: 2px 2px 1px rgb(0, 0, 0);
+  background: linear-gradient(45deg,#010b3f,#f9a1e8);
+}
+#login{
+  margin-top: 20px;
+  margin-left: 80px;
+  ;
+  background: transparent;
+  border: 1px none;
+}
+#login:hover{
+  box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  border-radius: 15px;
+  background:transparent;
+  cursor: pointer;
+}
+h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left:-20px;
+  color: aliceblue;
+}
+#uname::placeholder{
+  color: #ffffff;
+  font-size: 16px;
+}
+#psw::placeholder{
+  color: #ffffff;
+  font-size: 16px;
+  margin: 20px;
+}
+.login-box i{
+  position: absolute;
+  right: 20%;
+
+  top: 95px;
+  left: 220px;
+  /* top: 10%;
+  left: 10%; */
+
+  width: 50px;
+  height: 100%;
+}
+.login-box i:hover{
+  cursor: pointer;
+}
